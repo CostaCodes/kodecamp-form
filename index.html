@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kodecamp Registration Form</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body> 
+    <section id="page-body">
+        <header>
+            <div id="page-header">
+                <h1>Kodecamp Registration</h1>
+            <p>Please Kindly fill the form below to get on the KodeCamp Train</p>
+            </div>
+        </header>
+        <div id="form-container">
+            <form action="">
+                <div class="input-box">
+                    <label for="name">First Name</label>
+                    <br>
+                    <input type="text" name="First name" placeholder="Enter your name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="name">Last Name</label>
+                    <br>
+                    <input type="text" name="Last name" placeholder="Enter your last name" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="Email" placeholder="Enter your email" required>
+                </div>
+
+                <div class="input-box">
+                    <label for="Gender">Gender</label>
+                    <br>
+                    <select name="" id="Gender">
+                        <option value="" disabled selected>Select Option</option>
+                        <option value="Male">Male</option>
+                        <option value="Female">Female</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label for="Country">Country</label>
+                    <br>
+                    <select name="Country" id="Country">
+                        <option value="" disabled selected>Select your Country</option>
+                        <option value="United State">United State</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="India">India</option>
+                        <option value="Spain">Spain</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Nigeria">Nigeria</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <label for="education">Education Background</label>
+                    <br>
+                    <select name="" id="">
+                        <option value="" disabled selected>Educational level</option>
+                        <option value="Primary">Primary</option>
+                        <option value="Secondary">Secondary</option>
+                        <option value="University">University</option>
+                        <option value="Others">Others</option>
+                    </select>
+                </div>
+
+                <div class="input-box">
+                    <p>Do you have a Laptop?</p>
+                    <input type="radio" name="laptop" checked>Yes
+                    <input type="radio" name="laptop">No
+                </div>
+
+                <div class="check-input">
+                    <p>How did you hear about KodeCamp?</p>
+                    <input type="checkbox" name="source" id="">Friends
+                    <input type="checkbox" name="source" id="">Social Media
+                    <input type="checkbox" name="source" id="">School
+                </div>
+                <div class="input-box">
+                    <p>What Track are you Registering for?</p>
+                    <select name="favorite-track" id="">
+                        <option value="" disabled selected>Select your Track</option>
+                        <option value="Front-end">Front-end Engineering</option>
+                        <option value="Back-end">Back-end Engineering</option>
+                        <option value="Cloud">Cloud Engineering</option>
+                        <option value="Android">Android Development</option>
+                        <option value="Design">UI/UX Design</option>
+                    </select>
+                </div>
+                
+                <div class="input-box">
+                    <p>What level are you On?</p>
+                    <input type="radio" name="level" checked>Beginner
+                    <input type="radio" name="level">Intermediate
+                </div>
+                <div class="input-box">
+                    <p>Kindly tell us about Yourself</p>
+                    <textarea name="" id="" cols="50" rows="10" placeholder="About Yourself here..."></textarea>
+                </div>
+
+                <div>
+                    <button type="submit">Submit</button>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+</body>
+</html>
